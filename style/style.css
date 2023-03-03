@@ -33,3 +33,180 @@ html, body {
   overflow: hidden;
 }
 
+.aboutme {
+  background: #E5E5E5;
+  padding: 100px 0px 100px 0px;
+}
+.aboutme .width {
+  width: 480px;
+  margin: 0px auto;
+}
+.aboutme h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+}
+.aboutme .text {
+  max-width: 480px;
+  text-align: center;
+}
+.aboutme .text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 0px 0px 30px 0px;
+}
+
+.skills__width {
+  width: 970px;
+  margin: 0px auto;
+  padding: 100px 0px 101px 0px;
+  text-align: center;
+}
+.skills__title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+}
+.skills__title p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin: 20px 0px 50px 0px;
+  color: #070707;
+}
+.skills__colums {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.culums- {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.culums- .img-colum {
+  width: 80px;
+  height: 80px;
+  margin: 0px auto;
+}
+.culums- .text-skil {
+  margin: 25px 0px 60px 0px;
+}
+.culums- .text-skil p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #828282;
+}
+.culums- .zirochka img {
+  width: 26px;
+}
+
+.portfolio {
+  background: #E5E5E5;
+}
+.portfolio__width {
+  width: 970px;
+  margin: 0px auto;
+  padding: 100px 100px;
+}
+.portfolio__title {
+  margin: 0px 0px 50px 0px;
+}
+.portfolio__title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+}
+.portfolio__foto img {
+  width: 100%;
+  margin: 0px 0px 40px 0px;
+}
+.portfolio__foto p {
+  margin: 0px 0px 40px 0px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.contacts {
+  width: 970px;
+  padding: 100px 0 100px 0;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+}
+
+.text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 20px 0px 60px 0px;
+}
+
+.button {
+  background-color: #070707;
+  display: inline-block;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 20px;
+}
+.button:hover {
+  background-color: #434343;
+}
+
+.icon {
+  margin: 30px auto 60px auto;
+  width: 310px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.text-footer {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #828282;
+}/*# sourceMappingURL=style.css.map */
+hr{
+	height: 1px; width: 100%; background-color: #828282;margin: 27.5px 0px 0px 0px;
+}
