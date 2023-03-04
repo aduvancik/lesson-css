@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
+} 
 .header .width .list {
   width: 370px;
   margin: 27.5px 0px 0px 0px;
