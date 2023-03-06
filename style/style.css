@@ -1,81 +1,3 @@
-@charset "UTF-8";
-/*Обнуление*/
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-:focus, :active {
-  outline: none;
-}
-
-a:focus, a:active {
-  outline: none;
-}
-
-nav, footer, header, aside {
-  display: block;
-}
-
-html, body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-input, button, textarea {
-  font-family: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-ul li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-a {
-  color: inherit;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: 400;
-}
-
-/*----------------------------------------------------------------------------------------------------------------------------------*/
 .header {
   background: #fff;
 }
@@ -86,7 +8,13 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-} 
+}
+.header .width hr {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin: 20px 0px 0px 0px;
+}
 .header .width .list {
   width: 370px;
   margin: 27.5px 0px 0px 0px;
@@ -128,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .aboutme {
-  background: #E5E5E5;
+  background: #e5e5e5;
   padding: 100px 0px 100px 0px;
 }
 .aboutme .width {
@@ -187,21 +115,21 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
 }
 
-.culums- {
+.culums-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-.culums- .img-colum {
+.culums-main .img-colum {
   width: 80px;
   height: 80px;
   margin: 0px auto;
 }
-.culums- .text-skil {
+.culums-main .text-skil {
   margin: 25px 0px 60px 0px;
 }
-.culums- .text-skil p {
+.culums-main .text-skil p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
@@ -211,12 +139,12 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02em;
   color: #828282;
 }
-.culums- .zirochka img {
+.culums-main .zirochka img {
   width: 26px;
 }
 
 .portfolio {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 .portfolio__width {
   width: 970px;
@@ -300,10 +228,4 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 19px;
   text-align: center;
   color: #828282;
-}
-hr{
-	height: 1px; width:
-   100%; background-color:
-    #828282;
-    margin: 27.5px 0px 0px 0px;
-}
+}/*# sourceMappingURL=style.css.map */
