@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 	hr{
 		width: 100%;
 		height: 1px;
@@ -81,6 +82,7 @@
   .aboutme__text {
     max-width: 480px;
     text-align: center;
+
     p {
       font-family: "Open Sans";
       font-style: normal;
@@ -109,6 +111,7 @@
       line-height: 46px;
       text-align: center;
     }
+
     p {
       font-family: "Open Sans";
       font-style: normal;
@@ -121,14 +124,14 @@
     }
   }
 
-  &__colums {
+  &__columns {
     display: flex;
     justify-content: center;
     justify-content: space-between;
   }
 }
 
-.culums-main {
+.skills__column-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,7 +142,10 @@
     height: 80px;
     margin: 0px auto;
   }
+
   .text-skil {
+  margin: 25px 0px 60px 0px;
+
     p {
       font-family: "Open Sans";
       font-style: normal;
@@ -150,7 +156,6 @@
       letter-spacing: 0.02em;
       color: #828282;
     }
-    margin: 25px 0px 60px 0px;
   }
 
   .zirochka {
@@ -171,6 +176,7 @@
 
   &__title {
     margin: 0px 0px 50px 0px;
+
     h2 {
       font-family: "Open Sans";
       font-style: normal;
@@ -182,10 +188,12 @@
   }
 
   &__foto {
+
     img {
       width: 100%;
       margin: 0px 0px 40px 0px;
     }
+
     p {
       margin: 0px 0px 40px 0px;
       text-align: center;
@@ -199,6 +207,7 @@
     }
   }
 }
+
 .contacts {
   width: 970px;
   padding: 100px 0 100px 0;
@@ -230,16 +239,19 @@
   color: white;
   padding: 10px 16px;
   border-radius: 20px;
+
   &:hover {
     background-color: #434343;
   }
 }
+
 .contacts__icon {
   margin: 30px auto 60px auto;
   width: 310px;
   justify-content: space-between;
   display: flex;
 }
+
 .contacts__text-footer {
   font-family: "Open Sans";
   font-style: normal;

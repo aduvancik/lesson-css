@@ -109,27 +109,27 @@
   margin: 20px 0px 50px 0px;
   color: #070707;
 }
-.skills__colums {
+.skills__columns {
   display: flex;
   justify-content: center;
   justify-content: space-between;
 }
 
-.culums-main {
+.skills__column-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-.culums-main .img-colum {
+.skills__column-main .img-colum {
   width: 80px;
   height: 80px;
   margin: 0px auto;
 }
-.culums-main .text-skil {
+.skills__column-main .text-skil {
   margin: 25px 0px 60px 0px;
 }
-.culums-main .text-skil p {
+.skills__column-main .text-skil p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
@@ -139,7 +139,7 @@
   letter-spacing: 0.02em;
   color: #828282;
 }
-.culums-main .zirochka img {
+.skills__column-main .zirochka img {
   width: 26px;
 }
 
